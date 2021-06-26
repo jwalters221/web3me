@@ -28,7 +28,7 @@ var rawTransaction ={
     gasPrice: web3.utils.toHex(20000000),
     gasLimit: web3.utils.toHex(30000),
     value: web3.utils.toHex(1000000000000000000),
-    data: web3.utils.toHex("")
+    data: web3.utils.toHex(""),
 }
 
 // -- Step 5: View the raw transaction 
