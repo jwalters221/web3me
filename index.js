@@ -23,7 +23,7 @@ CREATE A TRANSACTION
 
 // -- Step 4: Set up the transaction using the transaction variables as shown 
 var rawTransaction ={
-    nonce: web3.utils.toHex(4),
+    nonce: web3.utils.toHex(5),
     to: receivingAddress,
     gasPrice: web3.utils.toHex(20000000),
     gasLimit: web3.utils.toHex(30000),
